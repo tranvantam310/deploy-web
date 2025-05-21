@@ -1,11 +1,11 @@
 {
-    "name": "hoctot",
-    "short_name": "hoctot",
-    "start_url": ".",
+    "name": "HocTot247",
+    "short_name": "HocTot",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "HocTot247 - Nền tảng học trực tuyến toàn diện.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
