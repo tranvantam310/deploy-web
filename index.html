@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
-
+  <base href="$/">
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Học Tốt 247 - Nền tảng học trực tuyến toàn diện.">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Học Tốt 247 - Nền tảng học trực tuyến cho học sinh THCS, THPT, ôn thi tốt nghiệp THPT hiệu quả.">
+  <meta name="keywords" content="ôn thi THPT, học trực tuyến, Học Tốt 247, ôn thi tốt nghiệp THPT, học sinh THCS, học sinh THPT">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Học Tốt 247 - Ôn Thi THPT & Học Trực Tuyến">
+  <meta property="og:description" content="Học Tốt 247 cung cấp khóa học trực tuyến chất lượng cho học sinh THCS, THPT, hỗ trợ ôn thi tốt nghiệp THPT.">
+  <meta property="og:image" content="https://hoctot247.com/favicon.png">
+  <meta property="og:url" content="https://hoctot247.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Học Tốt 247 - Ôn Thi THPT & Học Trực Tuyến">
+  <meta name="twitter:description" content="Khóa học trực tuyến cho học sinh THCS, THPT, hỗ trợ ôn thi tốt nghiệp THPT tại Học Tốt 247.">
+  <meta name="twitter:image" content="https://hoctot247.com/favicon.png">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,13 +30,30 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>HocTot247</title>
+  <link rel="canonical" href="https://hoctot247.com">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <title>Học Tốt 247 - Ôn Thi THPT & Học Trực Tuyến THCS, THPT</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Học Tốt 247",
+      "url": "https://hoctot247.com",
+      "description": "Nền tảng học trực tuyến cho học sinh THCS, THPT, chuyên cung cấp khóa học ôn thi tốt nghiệp THPT tại Việt Nam.",
+      "logo": "https://hoctot247.com/icons/Icon-192.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer service",
+        "url": "https://hoctot247.com"
+      }
+    }
+  </script>
 </head>
 <body>
-<script src="flutter_bootstrap.js" async></script>
+<script defer src="flutter_bootstrap.js"></script>
 <script defer="" charset="utf-8" src="/static-assets/pusher.js"></script>
-
 </body>
 </html>
