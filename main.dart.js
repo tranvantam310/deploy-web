@@ -44084,13 +44084,16 @@ _.a=a
 _.b=b
 _.c=c
 _.d=d},
-Vx:function Vx(a,b,c,d,e,f){var _=this
-_.c=a
-_.f=b
-_.w=c
-_.x=d
-_.z=e
-_.ax=f},
+Vx:function Vx(a,b,c,d,e,f,g,h,i){var _=this
+_.a=a
+_.c=b
+_.f=c
+_.w=d
+_.x=e
+_.z=f
+_.as=g
+_.at=h
+_.ax=i},
 aWC:function aWC(a,b){this.a=a
 this.b=b},
 Vz:function Vz(a,b,c,d,e,f){var _=this
@@ -141955,7 +141958,7 @@ j=t.N
 i=t.z
 h=t.X
 g=A.dB(b,b,h,h)
-f=A.bMh(new A.Vx(!1,!0,!1,!0,!1,!0))
+f=A.bMh(new A.Vx(!1,!1,!0,!0,!0,!1,"https://hoctot247.com",!0,!0))
 f.wg("cueVideoById",A.K(["videoId","","startSeconds",null,"endSeconds",null],j,i))
 e=t.Q
 e=new A.Vb(r,q,p,o,n,m,l,k,new A.CC(b,b,b,b,b,b,b,b,b,b),A.v(j,i),g,new A.j7(t.dl),f,new A.bc(B.M,$.aq()),A.a([],t.B),A.dv(b,b,b,h,t.u),new A.cr(e),new A.cr(e),!1,!1)
@@ -158900,8 +158903,9 @@ b7A(a,b){return this.akI(null,a,b)},
 akH(a){return this.akI(null,null,a)},
 rR(){var s=0,r=A.r(t.H),q=this,p
 var $async$rR=A.n(function(a,b){if(a===1)return A.o(b,r)
-while(true)switch(s){case 0:s=2
-return A.l(q.H6(0,"https://www.youtube.com",q.b),$async$rR)
+while(true)switch(s){case 0:p=q.b
+s=2
+return A.l(q.H6(0,p.as,p),$async$rR)
 case 2:p=q.e
 if((p.a.a&30)===0)p.ft(0)
 return A.p(null,r)}})
@@ -158915,7 +158919,7 @@ case 2:k=e
 j=q.c
 j===$&&A.b()
 p=B.c.iY(B.c.iY(B.c.iY(k,"<<pointerEvents>>","initial"),"<<playerVars>>",B.by.Ga(c.oa(),null)),"<<platform>>","web")
-o=B.c.iY(p,"<<host>>","https://www.youtube.com")
+o=B.c.iY(p,"<<host>>",c.as)
 j=j.a.a.b
 j.srcdoc=o
 n=new A.ck("")
@@ -159146,7 +159150,7 @@ n.n(0,"cc_load_policy",q.c?1:0)
 n.n(0,"color","white")
 n.n(0,"controls",1)
 n.n(0,"disablekb",0)
-n.n(0,"enablejsapi",q.w?1:0)
+n.n(0,"enablejsapi",1)
 n.n(0,"fs",q.x?1:0)
 n.n(0,"hl","en")
 n.n(0,"iv_load_policy",q.z?1:3)
@@ -159167,7 +159171,7 @@ n.n(0,"cc_load_policy",q.c?1:0)
 n.n(0,"color","white")
 n.n(0,"controls",1)
 n.n(0,"disablekb",0)
-n.n(0,"enablejsapi",q.w?1:0)
+n.n(0,"enablejsapi",1)
 n.n(0,"fs",q.x?1:0)
 n.n(0,"hl","en")
 n.n(0,"iv_load_policy",q.z?1:3)
@@ -172915,8 +172919,8 @@ B.bAw=new A.ut(3,"DECLARATION")
 B.bAx=new A.ut(4,"DOCUMENT_TYPE")
 B.aey=new A.ut(7,"ELEMENT")
 B.bAE=new A.al_("","","",B.C)
-B.bDM=new A.Vx(!0,!0,!0,!1,!0,!1)
-B.bAF=new A.Vx(!0,!0,!0,!0,!1,!0)
+B.bDM=new A.Vx(!1,!0,!0,!0,!1,!0,"https://www.youtube.com",!0,!1)
+B.bAF=new A.Vx(!1,!0,!0,!0,!0,!1,"https://www.youtube.com",!0,!0)
 B.bAG=new A.II(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bAH=new A.aln(1,"adaptive")
 B.aeC=new A.alr(0,"contentSection")
