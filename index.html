@@ -16,6 +16,18 @@
   <meta property="og:url" content="https://hoctot247.com">
   <meta property="og:type" content="website">
 
+  <!-- Relaxed CSP for YouTube -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self' https: data: blob:;
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' https:;
+    frame-src 'self' https:;
+    img-src 'self' data: https: http:;
+    style-src 'self' 'unsafe-inline' https:;
+    connect-src 'self' https: wss:;
+    media-src 'self' https: data: blob:;
+    object-src 'none';
+  ">
+
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Học Tốt 247 - Ôn Thi THPT & Học Trực Tuyến">
@@ -34,6 +46,22 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
   <title>Học Tốt 247 - Ôn Thi THPT & Học Trực Tuyến THCS, THPT</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Preload YouTube resources -->
+  <link rel="dns-prefetch" href="//www.youtube.com">
+  <link rel="dns-prefetch" href="//youtube-nocookie.com">
+  <link rel="dns-prefetch" href="//i.ytimg.com">
+
+  <!-- GitHub Pages SPA redirect handler -->
+  <script>
+    (function() {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 
   <!-- Structured Data -->
   <script type="application/ld+json">
