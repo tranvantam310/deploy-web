@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="$FLUTTER_BASE_HREF">
+  <base href="/">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,16 +51,16 @@
   <link rel="dns-prefetch" href="//youtube-nocookie.com">
   <link rel="dns-prefetch" href="//i.ytimg.com">
 
-  <!-- GitHub Pages SPA redirect handler -->
-<!--  <script>-->
-<!--    (function() {-->
-<!--      var redirect = sessionStorage.redirect;-->
-<!--      delete sessionStorage.redirect;-->
-<!--      if (redirect && redirect != location.href) {-->
-<!--        history.replaceState(null, null, redirect);-->
-<!--      }-->
-<!--    })();-->
-<!--  </script>-->
+<!--   GitHub Pages SPA redirect handler-->
+  <script>
+    (function() {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 
   <!-- Structured Data -->
   <script type="application/ld+json">

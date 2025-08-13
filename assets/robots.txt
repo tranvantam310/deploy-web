@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://hoctot247.com/sitemap.xml
